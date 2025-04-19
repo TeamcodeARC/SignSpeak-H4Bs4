@@ -1,7 +1,7 @@
 # SignSpeak: AI-Powered Sign Language Interpreter 🤟
 
 <div align="center">
-  <img src="public/logo.png" alt="SignSpeak-H4Bs4 Logo" width="120" />
+  <img src="public/logo.png" alt="SignSpeak Logo" width="120" />
   <h3>Breaking communication barriers with real-time sign language translation</h3>
 
   <!-- Badges -->
@@ -32,13 +32,13 @@
 - **Automatic Model Selection**: Runs all models and returns the most confident prediction.
 - **Text-to-Speech**: Converts recognized signs into speech.
 - **Interactive Learning Mode**: Learn sign language with guided lessons and practice sessions.
-- **Accessibility**: Dark/light mode, high contrast, responsive design.
+- **Accessibility**: High contrast, responsive design.
 - **API-first**: Well-documented REST API (see [`docs/API.md`](docs/API.md)).
 
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="public/" alt="SignSpeak-H4Bs4 Screenshot" width="80%" />
+  <img src="public/" alt="SignSpeak Screenshot" width="80%" />
 </div>
 
 ## 🚀 Getting Started
@@ -127,7 +127,7 @@
 ```mermaid
 graph LR
     subgraph "User Interaction (Frontend)"
-        A[User visits SignSpeak-H4Bs4 website] --> B("User grants webcam access");
+        A[User visits SignSpeak website] --> B("User grants webcam access");
         B --> C{WebcamFeed Component};
         C -- Captures Frame --> D[Send Frame periodically];
     end
@@ -148,7 +148,6 @@ graph LR
     end
 
     subgraph "Other Features (Frontend)"
-        N[User interacts with Learning Assistant] --> O{LearningAssistant Component};
         P[User changes settings] --> Q{SettingsPanel Component};
     end
 ```
