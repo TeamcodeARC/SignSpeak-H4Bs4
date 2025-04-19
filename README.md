@@ -1,18 +1,18 @@
 # SignSpeak: AI-Powered Sign Language Interpreter 🤟
 
 <div align="center">
-  <img src="public/logo.png" alt="SignSpeak Logo" width="120" />
+  <img src="public/logo.png" alt="SignSpeak-H4Bs4 Logo" width="120" />
   <h3>Breaking communication barriers with real-time sign language translation</h3>
 
   <!-- Badges -->
-  <a href="https://github.com/TeamcodeARC/signspeak/stargazers"><img src="https://img.shields.io/github/stars/TeamcodeARC/signspeak?style=social" alt="GitHub stars"></a>
-  <a href="https://github.com/TeamcodeARC/signspeak/network/members"><img src="https://img.shields.io/github/forks/TeamcodeARC/signspeak?style=social" alt="GitHub forks"></a>
-  <a href="https://github.com/TeamcodeARC/signspeak/issues"><img src="https://img.shields.io/github/issues/TeamcodeARC/signspeak" alt="GitHub issues"></a>
-  <a href="https://github.com/TeamcodeARC/signspeak/pulls"><img src="https://img.shields.io/github/issues-pr/TeamcodeARC/signspeak" alt="GitHub pull requests"></a>
-  <a href="https://github.com/TeamcodeARC/signspeak/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TeamcodeARC/signspeak" alt="License"></a>
+  <a href="https://github.com/TeamcodeARC/SignSpeak-H4Bs4/stargazers"><img src="https://img.shields.io/github/stars/TeamcodeARC/SignSpeak-H4Bs4?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/TeamcodeARC/SignSpeak-H4Bs4/network/members"><img src="https://img.shields.io/github/forks/TeamcodeARC/SignSpeak-H4Bs4?style=social" alt="GitHub forks"></a>
+  <a href="https://github.com/TeamcodeARC/SignSpeak-H4Bs4/issues"><img src="https://img.shields.io/github/issues/TeamcodeARC/SignSpeak-H4Bs4" alt="GitHub issues"></a>
+  <a href="https://github.com/TeamcodeARC/SignSpeak-H4Bs4/pulls"><img src="https://img.shields.io/github/issues-pr/TeamcodeARC/SignSpeak-H4Bs4" alt="GitHub pull requests"></a>
+  <a href="https://github.com/TeamcodeARC/SignSpeak-H4Bs4/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TeamcodeARC/SignSpeak-H4Bs4" alt="License"></a>
   <a href="https://github.com/sponsors/TeamcodeARC"><img src="https://img.shields.io/badge/Sponsor-❤-ff69b4" alt="Sponsor"></a>
-  <a href="https://github.com/TeamcodeARC/signspeak/wiki"><img src="https://img.shields.io/badge/Wiki-Available-blue" alt="Wiki"></a>
-  <a href="https://github.com/TeamcodeARC/signspeak/discussions"><img src="https://img.shields.io/badge/Discussions-Join%20now-brightgreen" alt="Discussions"></a>
+  <a href="https://github.com/TeamcodeARC/SignSpeak-H4Bs4/wiki"><img src="https://img.shields.io/badge/Wiki-Available-blue" alt="Wiki"></a>
+  <a href="https://github.com/TeamcodeARC/SignSpeak-H4Bs4/discussions"><img src="https://img.shields.io/badge/Discussions-Join%20now-brightgreen" alt="Discussions"></a>
   <br/>
   [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
   [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite)](https://vitejs.dev/)
@@ -38,7 +38,7 @@
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="public/" alt="SignSpeak Screenshot" width="80%" />
+  <img src="public/" alt="SignSpeak-H4Bs4 Screenshot" width="80%" />
 </div>
 
 ## 🚀 Getting Started
@@ -54,8 +54,8 @@
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/TeamcodeARC/signspeak.git
-   cd signspeak
+   git clone https://github.com/TeamcodeARC/SignSpeak-H4Bs4.git
+   cd SignSpeak-H4Bs4
    ```
 
 2. Install dependencies
@@ -127,7 +127,7 @@
 ```mermaid
 graph LR
     subgraph "User Interaction (Frontend)"
-        A[User visits SignSpeak website] --> B("User grants webcam access");
+        A[User visits SignSpeak-H4Bs4 website] --> B("User grants webcam access");
         B --> C{WebcamFeed Component};
         C -- Captures Frame --> D[Send Frame periodically];
     end
@@ -156,7 +156,7 @@ graph LR
 ## 📁 Project Structure
 
 ```
-signspeak/
+SignSpeak-H4Bs4/
 ├── backend/                  # Python Flask backend
 │   ├── app.py                # Main Flask application
 │   ├── requirements.txt      # Backend dependencies
@@ -168,7 +168,7 @@ signspeak/
 ├── docs/
 │   └── API.md                # API documentation
 ├── public/                   # Static assets
-│   ├── logo.png                 # SignSpeak logo
+│   ├── logo.png                 # SignSpeak-H4Bs4 logo
 ├── src/
 │   ├── App.tsx               # Main React component
 │   ├── index.css             # Global styles
