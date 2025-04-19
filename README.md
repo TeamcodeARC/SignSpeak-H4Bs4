@@ -175,7 +175,6 @@ signspeak/
 │   ├── main.tsx              # Entry point
 │   ├── components/           # React components
 │   │   ├── home.tsx
-│   │   ├── LearningAssistant.tsx
 │   │   ├── TranslationPanel.tsx
 │   │   ├── WebcamFeed.tsx
 │   │   └── ui/               # UI components (shadcn)
@@ -184,7 +183,6 @@ signspeak/
 │   │   ├── backend-api.ts
 │   │   └── utils.ts
 │   ├── stories/              # Storybook component stories
-│   ├── tempobook/            # Documentation
 │   └── types/                # TypeScript types
 ├── components.json           # shadcn/ui config
 ├── index.html                # HTML entry point
