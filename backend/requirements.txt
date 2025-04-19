@@ -1,0 +1,12 @@
+flask==2.3.3
+flask-cors==4.0.0
+opencv-python==4.8.0.74
+mediapipe==0.10.21
+numpy==1.24.3
+python-dotenv==1.0.0
+requests==2.31.0
+gunicorn==21.2.0
+Pillow==10.0.0
+google-generativeai==0.3.1
+gTTS==2.3.2
+tensorflow==2.16.1 # Or tensorflow-gpu if CUDA is available

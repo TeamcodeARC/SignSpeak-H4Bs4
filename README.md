@@ -122,8 +122,36 @@
 - **Model Selection**: Backend runs all models and returns the prediction with the highest confidence
 - **Easily Extendable**: Add new models or retrain with your own data
 
-## 📊 System Flow
+## 🌊 Overall Website Flow
 
+```mermaid
+graph LR
+    subgraph "User Interaction (Frontend)"
+        A[User visits SignSpeak website] --> B("User grants webcam access");
+        B --> C{WebcamFeed Component};
+        C -- Captures Frame --> D[Send Frame periodically];
+    end
+
+    subgraph "Backend API Calls"
+        D --> E["/api/detect-hands"];
+        E -- "Landmarks, Annotated Image" --> F(Frontend);
+        F --> G["/api/interpret-sign"];
+        G -- "Text, Confidence" --> H(Frontend);
+        H -- "If text & TTS enabled" --> I["/api/text-to-speech"];
+        I -- "Audio Data" --> J(Frontend);
+    end
+
+    subgraph "Frontend Updates"
+        F --> K["Display Annotated Image (WebcamFeed)"];
+        H --> L["Display Translated Text (TranslationPanel)"];
+        J --> M[Play Audio];
+    end
+
+    subgraph "Other Features (Frontend)"
+        N[User interacts with Learning Assistant] --> O{LearningAssistant Component};
+        P[User changes settings] --> Q{SettingsPanel Component};
+    end
+```
 
 ## 📁 Project Structure
 
